@@ -1,0 +1,768 @@
+.imgAstronauta {
+    top: -10vh;
+    position: relative;
+    text-align: center;
+}
+
+.imgAstronauta img {
+    width: 100%;
+}
+
+.containerPage {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.btnExplorar {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.btnExplorar img {
+    width: 120px;
+}
+
+.btnExplorar span {
+    font-size: 60px;
+    font-family: 'BerlinSans';
+    color: #fff;
+    margin-left: -15px;
+}
+
+.sectionPageDefault {
+    position: relative;
+}
+
+#sectionCeuSul {
+    background-image: url('../../imagens_page/background/telaPrincipal/03_Céu_dos_pampas.jpg');
+}
+
+#sectionCeuPampas {
+    background-image: url('../../imagens_page/background/telaPrincipal/01_céudossul.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+}
+
+#sectionCeuPampas .containerPage{
+    padding-bottom: 0;
+}
+
+#sectionCeuPampas .imagem_destaque{
+    margin: auto auto;
+}
+
+#sectionCeuPampas .imagem_destaque p{
+    text-align: center;
+    color: #aab1af;
+    font-size: 14px;
+}
+
+#sectionCeuPampas p{
+    font-size: 20px;
+}
+
+#sectionCeuPampas .rodape {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#sectionCeuPampas .rodape img{
+    width: 90px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#sectionAtronomiaAstronautica {
+    background-image: url('../../imagens_page/background/telaPrincipal/04_fundo_astronomiae-astronautica.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#sectionFeitoPoeiraEstrelas {
+    background-image: url('../../imagens_page/background/telaPrincipal/05_calendário_cósmico_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+#sectionFeitoPoeiraEstrelas .slider-text .bread {
+    font-size: 115px;
+    line-height: 100px;
+}
+
+#sectionFeitoPoeiraEstrelas .containerPage {
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+}
+
+#sectionPapelAntigo {
+    background-image: url('../../imagens_page/background/telaPrincipal/05_calendário_Cósmico4_fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    color: #000;
+    font-family: 'GillSans';
+    font-size: 25px;
+}
+
+#sectionPapelAntigo p {
+    margin-bottom: 40px;
+}
+
+#sectionFundoEstrelas {
+    background-image: url('../../imagens_page/background/telaPrincipal/06_Fundo-Ensino-e-Pesquisa1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    text-align: center;
+    font-family: 'twlCenMt';
+}
+
+#sectionFundoEstrelas p {
+    color: #fff;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+/* 
+#sectionObservador {
+    background-image: url('../../imagens_page/background/06_Ensinoepesquisa2.png');
+    width: auto;
+    height: 100vh;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+ } 
+ */
+
+#sectionObservador {
+    position: relative;
+    height: 545px;
+}
+
+#sectionObservador .container {
+    margin-top: -30vh;
+}
+
+#sectionObservador img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#sectionObservador .bloco {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#sectionObservador .btnExplorar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+
+#sectionObservador2 {
+    position: relative;
+    height: 545px;
+}
+
+#sectionObservador2 img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#sectionObservador2 .bloco {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#sectionObservador2 .btnExplorar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+
+.sectionFundoMar_novo_1 {
+    background-image: url('../../imagens_page/background/telaPrincipal/07_Céusdosmares_capa1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    text-align: center;
+    font-family: 'twlCenMt';
+}
+
+.sectionFundoMar_novo_1 .containerPage {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    text-align: left;
+    color: #fff;
+}
+
+.sectionFundoMar_novo_1 .containerPage .conteudo {
+    margin-bottom: 95px;
+}
+
+.sectionFundoMar_novo_1 .containerPage h1 {
+    font-size: 90px;
+    line-height: 120px;
+}
+
+.sectionFundoMar_novo_1 .containerPage p {
+    font-size: 30px;
+}
+
+.sectionFundoMar_novo_1 .container .btnExplorar {
+    margin-top: -180px;
+}
+
+.sectionFundoMar_novo_2 {
+    background-image: url('../../imagens_page/background/telaPrincipal/07_Céusdosmares_capa2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+}
+
+#sectionRodape {
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'twlCenMt';
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+#sectionRodape .container {
+    max-width: 100%;
+}
+
+.containerPageRodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#sectionRodape .logo {
+    width: 300px;
+    text-align: center;
+}
+
+.tituloLinkEsquerda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloLinkEsquerda>a {
+    font-size: 6vw !important;
+    padding: 20px;
+}
+
+
+.divisoria {
+    height: 60px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.divisoria.primeiraDivisoria {
+    height: 50px;
+    margin-top: -10vh;
+    margin-bottom: 5px;
+}
+
+.divisoria i:hover {
+    animation: jump 1s ease infinite;
+}
+
+.divisoria a {
+    color: #fff;
+}
+
+.divisoriaBranca {
+    min-height: 15vh;
+    /* height: 15vh; */
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9vh;
+    padding: 30px 0;
+}
+
+.divisoriaBranca p {
+    font-size: 25px;
+    color: #000;
+}
+
+.divisoriaBranca a {
+    color: #000;
+}
+
+.divisoriaBranca i:hover {
+    animation: jump 1s ease infinite;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    background-color: rgb(46 46 46 / 97%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/* CARD */
+.card {
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    background: transparent;
+    border: 0px;
+}
+
+.card .foto_destaque {}
+
+.card .foto_destaque img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    margin: 0 auto;
+}
+
+.card .titulo {
+    margin-top: 20px;
+}
+
+
+
+/* --------------------------------------------------------- */
+.img-principal {
+    width: 100%;
+    height: 100vh;
+}
+
+.containerPageClick {
+    width: 100%;
+    height: auto;
+    /* background-image:url('../../imagens_page/fundo2.png'); */
+}
+
+.containerPageClick:first {
+    width: 100%;
+    height: 100vh;
+    /* background-image:url('../../imagens_page/fundo2.png'); */
+}
+
+
+.centralizarConteudo {
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    height: 600px;
+    justify-content: center;
+    font-family: 'BerlinSans';
+    color: #fff;
+    font-size: 25px;
+    background: #666;
+    padding: 50px;
+    line-height: 35px;
+}
+
+.imgCarlSagan {
+    /* height: 600px; */
+}
+
+#sectionTwoComentario {
+    background: #fff;
+}
+
+#sectionTwoComentario .centralizarConteudo {
+    color: #000;
+    background: #fff;
+    font-family: 'twlCenMt';
+}
+
+#sectionTwoComentario_teste {
+    background-image: url('../../imagens_page/background/telaPrincipal/05_calendário_cósmico_autor.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#sectionTwoComentario_teste .centralizarConteudo {
+    color: #fff;
+    font-family: 'twlCenMt';
+    background: #6666668c;
+    height: 1080px;
+}
+
+.divisoriaBranco {
+    background: #fff;
+}
+
+.arrow {
+    font-size: 50px;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+#abrirSobreMenu i {
+    animation: jumpRight 1s ease infinite;
+}
+
+
+@keyframes jump {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes jumpRight {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateX(20px);
+    }
+
+    60% {
+        transform: translateX(10px);
+    }
+}
+
+.calendarioCosmico {
+    text-align: center;
+    padding: 25px;
+}
+
+.calendarioCosmico .titulo {
+    font-size: 60px;
+}
+
+.calendarioCosmico .subTitulo {
+    font-size: 30px;
+}
+
+.listaLinhaTempo {
+    margin-bottom: 250px;
+}
+
+.itemLinhaTempo {
+    padding: 25px;
+    align-items: center;
+    font-size: 25px;
+}
+
+.itemLinhaTempo.direita {
+    text-align: left;
+    margin-left: 60px;
+}
+
+.itemLinhaTempo.esquerda {
+    text-align: right;
+    margin-right: 60px;
+}
+
+.biografiaCalendario {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    background: #fff;
+    margin-top: 120px;
+    font-size: 25px;
+}
+
+.perfilBiografia {
+    text-align: center;
+    margin-top: -200px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.perfilBiografia img {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+}
+
+
+.descricaoBiografia {
+    margin: 30px 0 90px 0;
+    text-align: center;
+    color: #000 ;
+}
+
+.rodapeBiografia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.popup {
+    display: none;
+    position: absolute;
+    background-color: #4a4c4d82;
+    width: 500px;
+    padding: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    z-index: 9999;
+    border-radius: 15px;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#sectionConteudosDestaque {
+    min-height: 500px;
+    background-color: #fff;
+}
+
+#sectionConteudosDestaque .containerPage {
+    padding-bottom: 0;
+}
+
+#sectionConteudosDestaque hr {
+    border-top: 4px solid #c2bebd;
+    padding-bottom: 50px;
+}
+
+#sectionConteudosDestaque .card {
+    color: #000;
+}
+
+#sectionConteudosDestaque .card img{
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#sectionConteudosDestaque .card .card-titulo {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#sectionConteudosDestaque .card .card-titulo .leiaMais {
+    margin-top: 10px;
+    color: #000;
+}
+
+#sectionConteudosDestaque .card .card-titulo .leiaMais a{
+    color: #000;
+}
+
+#sectionConteudosDestaque .card .card-titulo .titulo_principal {
+    width: 40%;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+#sectionConteudosDestaque .card  .card-conteudo {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+#sectionSaibaMais {
+    min-height: 500px;
+    background-color: #fff;
+}
+
+#sectionSaibaMais .tituloSaibaMais {
+    font-size: 50px;
+    color: #000;
+}
+
+#sectionSaibaMais .tituloSaibaMais img{
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+
+#sectionSaibaMais hr {
+    border-top: 4px solid #c2bebd;
+    padding-bottom: 50px;
+}
+
+#sectionSaibaMais .conteudoLinksSaibaMais .linkSaibaMais {
+    display: flex;
+    margin-top: 40px;
+}
+
+#sectionSaibaMais .conteudoLinksSaibaMais .linkSaibaMais img {
+    width: 50px;
+    height: 50px;
+}
+
+#sectionSaibaMais .conteudoLinksSaibaMais .linkSaibaMais .titulo {
+    margin-left: 25px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000;
+}
+
+#sectionSaibaMais .conteudoLinksSaibaMais .linkSaibaMais .titulo a {
+    color: #000;
+}
+
+
+@media (max-width:576px) {
+    #logoMenuPrincipal {
+        width: 70px;
+        height: 70px;
+    }
+
+    .slider-text .bread {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+
+    .slider-text p {
+        font-size: 20px;
+        font-family: 'BerlinSans';
+        line-height: 20px;
+    }
+
+    .btnExplorar span {
+        font-size: 35px;
+    }
+
+    .btnExplorar img {
+        width: 90px;
+    }
+
+
+    #sectionFeitoPoeiraEstrelas .slider-text .bread {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .sectionFundoMar_novo_1 .containerPage h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .sectionFundoMar_novo_1 .containerPage p {
+        font-size: 20px;
+    }
+
+    .containerPageRodape {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    #sectionPapelAntigo p {
+        font-size: 20px;
+    }
+
+    #sectionFundoEstrelas p {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    #sectionRodape {
+        height: auto;
+    }
+
+    #sectionRodape .container {
+        margin-top: 20px;
+    }
+
+    #sectionRodape .logo {
+        margin: 20px 0;
+    }
+
+    #sectionObservador, #sectionObservador2 {
+        overflow: auto;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal semelhante a um Tooltip usando Bootstrap</title>
+    <!-- Adicione o link para o Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Adicione o CSS personalizado -->
+    <style>
+        /* Estilo para o modal */
+        .tooltip-modal .modal-dialog {
+            position: absolute; /* Posição absoluta para o modal */
+            top: 0; /* Alinhar o modal no topo */
+            left: 0; /* Alinhar o modal à esquerda */
+            margin: 0; /* Margem zero */
+            transform: translate(0, -100%); /* Esconder o modal por padrão */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Modal semelhante a um Tooltip usando Bootstrap</h1>
+        <!-- Botão para abrir o modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Abrir Modal
+        </button>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Abrir Modal
+        </button>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Abrir Modal
+        </button>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Abrir Modal
+        </button>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Abrir Modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade tooltip-modal" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal semelhante a um Tooltip</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    </div>
+                    <div class="modal-body">
+                        Aqui está o conteúdo do modal. Você pode adicionar qualquer conteúdo HTML aqui.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adicione o link para o Bootstrap JavaScript (opcional, mas pode ser necessário para alguns recursos do Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

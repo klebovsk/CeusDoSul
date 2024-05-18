@@ -1,0 +1,80 @@
+
+.tituloPrincipal {
+    margin-top: 20vh;
+}
+
+.slider-text .bread {
+    font-family: 'twlCenMt';
+    font-weight: normal;
+    /* font-size: 185px;
+    line-height: 150px; */
+    margin-top: 270px;
+
+    font-size: 80px;
+    line-height: 85px;
+}
+
+
+.mainTitle {
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-text p {
+    font-size: 38px;
+    font-family: 'BerlinSans';
+    line-height: 50px;
+}
+
+#sectionCeuSul {
+    min-height: 500px;
+    background-image: url('../../imagens_page/paginas/os-povos-indigenas-brasileiros/Kaigang.png');
+}
+
+
+#sectionContent {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#sectionContent img {
+    width: 100%;
+}
+
+#sectionContent .sessao_conteudo {
+    font-size: 16px;
+}
+
+#sectionRodape {
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'twlCenMt';
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+#sectionRodape .container {
+    max-width: 100%;
+}
+
+#sectionRodape .containerPageRodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#sectionRodape p {
+    font-size: 14px;
+}
+
+p{
+    font-family: 'twlCenMt';
+    font-size: 20px;
+    color: #000;
+}

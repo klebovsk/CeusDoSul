@@ -1,0 +1,179 @@
+.containerPage {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.sectionPageDefault {
+    position: relative;
+}
+
+#sectionCeuSul {
+    background-image: url('../../imagens_page/background/telaPrincipal/01_céudossul.jpg ');
+}
+
+#sectionCeuPampas {
+    background-image: url('../../imagens_page/background/telaPrincipal/01_céudossul.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+}
+
+#sectionCeuPampas .containerPage{
+    padding-bottom: 0;
+}
+
+#sectionCeuPampas .imagem_destaque{
+    margin: auto auto;
+}
+
+#sectionCeuPampas .imagem_destaque p{
+    text-align: center;
+    color: #aab1af;
+    font-size: 14px;
+}
+
+#sectionCeuPampas p{
+    font-size: 20px;
+}
+
+#sectionCeuPampas .rodape {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#sectionCeuPampas .rodape img{
+    width: 90px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#sectionRodape {
+    background-color: #fff;
+    font-family: 'twlCenMt';
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+
+#sectionRodape .container{
+    padding-top: 70px;
+}
+
+.sessao_conteudo {
+    margin-bottom: 45px;
+}
+
+.sessao_conteudo p{
+    margin-bottom: 0px;
+}
+
+.sessao_conteudo .titulo {
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.sessao_conteudo .sub-titulo {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 23px;
+}
+
+.logos_centralizados {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.logos_centralizados.center {
+    justify-content: center;
+}
+
+.logos_centralizados.space-between {
+    justify-content: space-between !important;
+}
+
+.logos_centralizados img {
+    /* width: 100%; */
+    height: 100%;
+    margin: 0 10px;
+}
+
+.sessao_logos {
+    margin-top: 70px;
+}
+
+@media (max-width:576px) {
+    #logoMenuPrincipal {
+        width: 70px;
+        height: 70px;
+    }
+
+    .slider-text .bread {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+
+    .slider-text p {
+        font-size: 20px;
+        font-family: 'BerlinSans';
+        line-height: 20px;
+    }
+
+    .btnExplorar span {
+        font-size: 35px;
+    }
+
+    .btnExplorar img {
+        width: 90px;
+    }
+
+
+    #sectionFeitoPoeiraEstrelas .slider-text .bread {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .sectionFundoMar_novo_1 .containerPage h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .sectionFundoMar_novo_1 .containerPage p {
+        font-size: 20px;
+    }
+
+    .containerPageRodape {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    #sectionPapelAntigo p {
+        font-size: 20px;
+    }
+
+    #sectionFundoEstrelas p {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    #sectionRodape {
+        height: auto;
+    }
+
+    #sectionRodape .container {
+        margin-top: 20px;
+    }
+
+    #sectionRodape .logo {
+        margin: 20px 0;
+    }
+
+    .logos_centralizados {
+        flex-direction: column;
+    }
+}
